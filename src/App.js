@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './Homepage/Homepage';
+import FullPage from './FullPage/FullPage';
+import Header from './Header/Header';
 
 function App() {
   return (
