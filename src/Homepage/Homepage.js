@@ -12,7 +12,7 @@ const Homepage = ({ homeArticles }) => {
         byline={article.byline}
         image={article.multimedia[0]}
         url={article.url}
-        uri={article.uri}
+        shortUrl={article.short_url}
       />
     )
   })
