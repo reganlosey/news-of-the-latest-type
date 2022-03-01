@@ -9,28 +9,35 @@ import getAllData from './apiCalls';
 
 const App = () => {
   const [allArticles, setAllArticles] = useState([]);
+  const [clickedArticle, setArticle] = useState();
 
   const getAllArticles = async (query) => {
     const data = await getAllData(query)
-    console.log(data)
-    if(data.results.length){
+    if (data.results.length) {
       setAllArticles(data.results)
       return allArticles
     }
   }
-  
+
+
   useEffect(() => {
     getAllArticles('home')
   }, [])
-  
-  
-  console.log(allArticles)
+
+
+  const getClickedArticle = (id) => {
+    const matchedArticle = allArticles.find((article) => article.uri === id)
+    console.log('MATCHED>>>', matchedArticle.short_url)
+    setArticle(matchedArticle)
+  }
+
+
   return (
     <main className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage homeArticles={allArticles} />} />
-        <Route path="/:id" element={<FullPage />} />
+        <Route path="/" element={<Homepage homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
+        <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
       </Routes>
 
     </main>
