@@ -1,0 +1,14 @@
+.full-page{
+  height: 80vh;
+}
+
+.full-pg-wrapper{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.full-pg-img{
+  height: auto;
+  width: 50%;
+}

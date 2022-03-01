@@ -1,5 +1,12 @@
 .card{
+  width: 50%;
   border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.section{
+  text-transform:capitalize;
 }
 
 .article-img{

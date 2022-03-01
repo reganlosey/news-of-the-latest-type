@@ -1,14 +1,14 @@
 import './ArticleCard.css'
 import React, { Link } from 'react-router-dom';
 
-const ArticleCard = ({ id, title, image, uri, shortUrl, redirect }) => {
+const ArticleCard = ({ id, title, section, image, redirect }) => {
   const splitUri = id.split('-');
   const linkId = splitUri[splitUri.length - 1]
   return (
     <article className="card">
       <h2>{title}</h2>
-      <img className="article-img" alt={image.caption} src={image.url} />
-      <Link to={`/:${linkId}`} onClick={redirect(id)}>Click</Link>
+      <h3 className="section">Section: {section}</h3>
+      <Link to={`/:${linkId}`} onClick={() => redirect(id)}>Click</Link>
 
 
 

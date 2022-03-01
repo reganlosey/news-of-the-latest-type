@@ -1,0 +1,10 @@
+.homepage {
+  /* height: 100vh; */
+  border: 2px solid magenta;
+}
+
+.article-list{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}

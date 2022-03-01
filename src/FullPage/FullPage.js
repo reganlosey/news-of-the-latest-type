@@ -1,17 +1,30 @@
 import './FullPage.css'
-import { useLocation } from 'react-router-dom';
+
 import React, { useState, useEffect } from 'react';
-import getAllData from '../apiCalls';
 
 const FullPage = ({ clickedArticle }) => {
-  console.log(clickedArticle)
+  const media = clickedArticle.multimedia[0]
+  const publishDate = new Date(clickedArticle.published_date).toDateString()
+  console.log(publishDate)
 
-  const location = useLocation()
-  console.log(location)
-
+  // useEffect(() => {
+  //   if(clickedArticle.uri){
+  //     setArticleInfo(clickedArticle)
+  //     setMedia(clickedArticle.multimedia[0])
+  //   }
+  // }, [])
 
   return (
-    <h1>Full Page!</h1>
+    <article className="full-page">
+      <div className="full-pg-wrapper">
+        <h1>{clickedArticle.title}</h1>
+        <p>{publishDate}</p>
+        <p>{clickedArticle.byline}</p>
+        <img className="full-pg-img" src={media.url} alt={media.caption} />
+        <p>{clickedArticle.abstract}</p>
+      </div>
+
+    </article>
   )
 
 
