@@ -10,7 +10,6 @@ const Homepage = ({ homeArticles, getClickedArticle }) => {
         id={article.uri}
         title={article.title}
         image={article.multimedia[0]}
-        uri={article.uri}
         shortUrl={article.short_url}
         redirect={getClickedArticle}
       />

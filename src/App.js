@@ -19,13 +19,14 @@ const App = () => {
     }
   }
 
+
   useEffect(() => {
     getAllArticles('home')
   }, [])
 
 
-  const getClickedArticle = (shortUrl) => {
-    const matchedArticle = allArticles.find((article) => article.short_url === shortUrl)
+  const getClickedArticle = (id) => {
+    const matchedArticle = allArticles.find((article) => article.uri === id)
     console.log('MATCHED>>>', matchedArticle.short_url)
     setArticle(matchedArticle)
   }
@@ -36,7 +37,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Homepage homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
-        <Route path="/id" element={<FullPage clickedArticle={clickedArticle} />} />
+        <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
       </Routes>
 
     </main>
