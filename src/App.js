@@ -3,26 +3,18 @@ import './App.css';
 import Homepage from './Homepage/Homepage';
 import FullPage from './FullPage/FullPage';
 import Header from './Header/Header';
+import getAllArticles from './apiCalls';
 
-function App() {
+getAllArticles()
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className="App">
+      <Homepage />
+
+    </main>
+  )
+
 }
 
 export default App;
