@@ -3,7 +3,10 @@ import './ArticleCard.css'
 
 
 
-const ArticleCard = () => {
+const ArticleCard = ({title, abstract, byline, url, uri}) => {
+  return (
+    <h1>{title}</h1>
+  )
 
 
 }
