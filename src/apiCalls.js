@@ -1,16 +1,14 @@
 const apiKey = process.env.REACT_APP_API_KEY
-const url = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${apiKey}`
 
-const getAllArticles = async () => {
-  const resp = await fetch(url)
+const getAllData = async (query) => {
+  const resp = await fetch(`https://api.nytimes.com/svc/topstories/v2/${query}.json?api-key=${apiKey}`)
   if (resp.ok){
-    const allArticles = await resp.json()
-    console.log(allArticles)
-    return { allArticles }
+    const respJson = await resp.json()
+    return respJson
   } else {
-    console.log(resp.status)
+    throw new Error(`Error: ${resp.status}`)
   }
 }
 
 
-export default getAllArticles;
+export default getAllData;

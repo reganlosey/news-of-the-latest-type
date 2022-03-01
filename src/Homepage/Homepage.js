@@ -1,9 +1,15 @@
 import './Homepage.css';
+import getAllArticles from '../apiCalls';
 
-const Homepage = () => {
+const Homepage = ({ homeArticles }) => {
+  const articleCards = homeArticles.map((article) => console.log(article))
   return (
     <div className="homepage">
-      <h1>Homepage!</h1>
+      <div className="article-list">
+
+
+      </div>
+
 
 
     </div>
