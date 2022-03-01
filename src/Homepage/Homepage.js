@@ -10,6 +10,7 @@ const Homepage = ({ homeArticles }) => {
         title={article.title}
         abstract={article.abstract}
         byline={article.byline}
+        image={article.multimedia[0]}
         url={article.url}
         uri={article.uri}
       />
