@@ -2,17 +2,17 @@ import './Homepage.css';
 import getAllArticles from '../apiCalls';
 import ArticleCard from '../ArticleCard/ArticleCard';
 
-const Homepage = ({ homeArticles }) => {
+const Homepage = ({ homeArticles, getClickedArticle }) => {
   const articleCards = homeArticles.map((article) => {
     return (
       <ArticleCard
-        key={Math.floor(Math.random() * Date.now())}
+        key={article.uri}
+        id={article.uri}
         title={article.title}
-        abstract={article.abstract}
-        byline={article.byline}
         image={article.multimedia[0]}
-        url={article.url}
+        uri={article.uri}
         shortUrl={article.short_url}
+        redirect={getClickedArticle}
       />
     )
   })
@@ -22,9 +22,6 @@ const Homepage = ({ homeArticles }) => {
     <div className="homepage">
       <div className="article-list">
         {articleCards}
-
-
-
       </div>
 
 
