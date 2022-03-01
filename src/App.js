@@ -1,25 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import Homepage from './Homepage/Homepage';
+import FullPage from './FullPage/FullPage';
+import Header from './Header/Header';
+import getAllData from './apiCalls';
 
-function App() {
+
+const App = () => {
+  const [allArticles, setAllArticles] = useState([]);
+
+  const getAllArticles = async (query) => {
+    const data = await getAllData(query)
+    console.log(data)
+    if(data.results.length){
+      setAllArticles(data.results)
+      return allArticles
+    }
+  }
+  
+  useEffect(() => {
+    getAllArticles('home')
+  }, [])
+  
+  
+  console.log(allArticles)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className="App">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Homepage homeArticles={allArticles} />} />
+        <Route path="/:id" element={<FullPage />} />
+      </Routes>
+
+    </main>
+  )
+
 }
 
 export default App;
