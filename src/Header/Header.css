@@ -1,5 +1,15 @@
 .header{
   background-color: yellow;
-  height: 10vh;
-  text-align:center;
+  height: 12vh;
+  display: flex; 
+  flex-flow: column wrap;
+  align-items:center;
+}
+h1{
+  font-size: 2.5em;
+}
+
+.home-link{
+  font-size: 1.4em;
+  align-self:flex-start;
 }
