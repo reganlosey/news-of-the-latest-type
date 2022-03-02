@@ -17,7 +17,6 @@ const App = () => {
     const data = await getAllData(query)
     if (data.results.length) {
       setAllArticles(data.results)
-      console.log(allArticles)
       return allArticles
     }
   }
@@ -30,7 +29,6 @@ const App = () => {
 
   const getClickedArticle = (id) => {
     const matchedArticle = allArticles.find((article) => article.uri === id)
-    console.log('MATCHED>>>', matchedArticle.short_url)
     setArticle(matchedArticle)
   }
 
@@ -38,20 +36,14 @@ const App = () => {
     const filteredCards = allArticles.filter((article) => {
       return article.section === query
     })
-    console.log(filteredCards)
     setFilteredArticles(filteredCards)
   }
-
-  // const sortArticles = (query) => {
-  //   getAllArticles(query)
-  // }
-
 
   return (
     <main className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage sortMenu={<SortMenu allArticles={allArticles} sortArticles={sortArticles}/>} homeArticles={allArticles} filteredData={filteredArticles}getClickedArticle={getClickedArticle} />} />
+        <Route path="/" element={<Homepage sortMenu={<SortMenu allArticles={allArticles} sortArticles={sortArticles} />} homeArticles={allArticles} filteredData={filteredArticles} getClickedArticle={getClickedArticle} />} />
         <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
       </Routes>
     </main>
