@@ -17,6 +17,7 @@ const App = () => {
     const data = await getAllData(query)
     if (data.results.length) {
       setAllArticles(data.results)
+      console.log(allArticles)
       return allArticles
     }
   }
