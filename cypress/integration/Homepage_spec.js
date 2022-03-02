@@ -43,5 +43,10 @@ describe('Homepage', () => {
   it('should sort articles when a radio button is clicked', () => {
     cy.get('.homepage > .sort-menu')
     .get(':nth-child(3) > label > input')
+    .click()
+    cy.get('.homepage > .article-list >:nth-child(1)')
+    .get('.section')
+    .contains('Section: sports, baseball')
+    
   })
 })
