@@ -20,6 +20,7 @@
 .full-pg-img{
   height: auto;
   width: 40%;
+  border:2px solid black;
 }
 
 .abstract{
