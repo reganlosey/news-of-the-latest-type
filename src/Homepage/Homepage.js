@@ -1,5 +1,4 @@
 import './Homepage.css';
-import getAllArticles from '../apiCalls';
 import ArticleCard from '../ArticleCard/ArticleCard';
 
 const Homepage = ({ homeArticles, getClickedArticle, filteredData, sortMenu }) => {
