@@ -1,8 +1,15 @@
-.card{
+.card {
+  width: 70%;
+  height: 5em;
   border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content:space-evenly;
+  font-size: 1.5em;
 }
 
-.article-img{
-  width: 40%;
-  height: auto;
+.title, .section {
+  text-transform: capitalize;
 }
+
