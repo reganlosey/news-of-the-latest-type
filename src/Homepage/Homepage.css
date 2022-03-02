@@ -6,7 +6,7 @@
 }
 
 .article-list {
-  /* border: 2px solid magenta; */
+  width:70%;
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;

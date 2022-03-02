@@ -1,12 +1,13 @@
 .sort-menu{
   border:2px solid mediumspringgreen;
-  font-size: 1.25em;
   text-transform:capitalize;
-  position:fixed;
-  left:0;
+  display:flex;
+  flex-flow: column wrap;
+  
 }
 
 .sort-radio {
-
+  font-size: 1.25em;
+  margin: .65em 0;
 
 }
