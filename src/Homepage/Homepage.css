@@ -6,7 +6,9 @@
 }
 
 .article-list {
+  /* border: 2px solid magenta; */
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
+  align-items: flex-start;
+  justify-content:center;
 }
