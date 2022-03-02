@@ -1,10 +1,14 @@
 .homepage {
-  /* height: 100vh; */
-  border: 2px solid magenta;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content:center;
+
 }
 
-.article-list{
+.article-list {
+  /* border: 2px solid magenta; */
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
+  align-items: flex-start;
+  justify-content:center;
 }

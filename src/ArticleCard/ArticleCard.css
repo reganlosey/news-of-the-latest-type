@@ -1,15 +1,22 @@
 .card {
-  width: 70%;
+  width: 40em;
   height: 5em;
-  border: 1px solid red;
+  border: 2px solid black;
+  border-radius: 5px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-items: flex-start;
   justify-content:space-evenly;
   font-size: 1.5em;
-}
-
-.title, .section {
+  padding: 3%;
+  margin: 1%;
   text-transform: capitalize;
 }
 
+.title{
+  font-size: 1.2em;
+}
+
+.section{
+font-size:.9em;
+}
