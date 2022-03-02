@@ -2,7 +2,7 @@ import './Homepage.css';
 import getAllArticles from '../apiCalls';
 import ArticleCard from '../ArticleCard/ArticleCard';
 
-const Homepage = ({ homeArticles, getClickedArticle }) => {
+const Homepage = ({ homeArticles, getClickedArticle, sortMenu }) => {
   const articleCards = homeArticles.map((article) => {
     return (
       <ArticleCard
@@ -11,7 +11,7 @@ const Homepage = ({ homeArticles, getClickedArticle }) => {
         title={article.title}
         section={article.section}
         subsection={article.subsection}
-        image={article.multimedia[0]}
+        image={article.multimedia}
         shortUrl={article.short_url}
         redirect={getClickedArticle}
       />
@@ -24,9 +24,9 @@ const Homepage = ({ homeArticles, getClickedArticle }) => {
       <div className="article-list">
         {articleCards}
       </div>
-
-
-
+      <div className="sort-menu">
+        {sortMenu}
+      </div>
     </div>
   )
 

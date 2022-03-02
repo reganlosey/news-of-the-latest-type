@@ -32,15 +32,27 @@ const App = () => {
     setArticle(matchedArticle)
   }
 
+  // const sortArticles = (query) => {
+  //   const filteredArticles = allArticles.filter((article) => {
+  //     return article.section === query
+  //   })
+  //   console.log(filteredArticles)
+  //   return filteredArticles
+  // }
+
+  const sortArticles = (query) => {
+    getAllArticles(query)
+  }
+
 
   return (
     <main className="App">
       <Header />
-      <SortMenu allArticles={allArticles}/>
       <Routes>
-        <Route path="/" element={<Homepage homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
+        <Route path="/" element={<Homepage sortMenu={<SortMenu allArticles={allArticles} sortArticles={sortArticles}/>} homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
         <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
       </Routes>
+      {/* <SortMenu allArticles={allArticles}/> */}
 
     </main>
   )
