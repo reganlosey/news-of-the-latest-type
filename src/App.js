@@ -10,6 +10,7 @@ import getAllData from './apiCalls';
 
 const App = () => {
   const [allArticles, setAllArticles] = useState([]);
+  const [filteredArticles, setFilteredArticles] = useState([]);
   const [clickedArticle, setArticle] = useState();
 
   const getAllArticles = async (query) => {
@@ -32,28 +33,26 @@ const App = () => {
     setArticle(matchedArticle)
   }
 
-  // const sortArticles = (query) => {
-  //   const filteredArticles = allArticles.filter((article) => {
-  //     return article.section === query
-  //   })
-  //   console.log(filteredArticles)
-  //   return filteredArticles
-  // }
-
   const sortArticles = (query) => {
-    getAllArticles(query)
+    const filteredCards = allArticles.filter((article) => {
+      return article.section === query
+    })
+    console.log(filteredCards)
+    setFilteredArticles(filteredCards)
   }
+
+  // const sortArticles = (query) => {
+  //   getAllArticles(query)
+  // }
 
 
   return (
     <main className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage sortMenu={<SortMenu allArticles={allArticles} sortArticles={sortArticles}/>} homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
+        <Route path="/" element={<Homepage sortMenu={<SortMenu allArticles={allArticles} sortArticles={sortArticles}/>} homeArticles={allArticles} filteredData={filteredArticles}getClickedArticle={getClickedArticle} />} />
         <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
       </Routes>
-      {/* <SortMenu allArticles={allArticles}/> */}
-
     </main>
   )
 
