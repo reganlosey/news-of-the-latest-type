@@ -1,7 +1,5 @@
 import './FullPage.css'
-
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 
 const FullPage = ({ clickedArticle }) => {
   const media = clickedArticle.multimedia[0]
@@ -9,7 +7,7 @@ const FullPage = ({ clickedArticle }) => {
   return (
     <article className="full-page">
       <div className="full-pg-wrapper">
-        <h1>{clickedArticle.title}</h1>
+        <h1 className="title">{clickedArticle.title}</h1>
         <p>{publishDate}</p>
         <p>{clickedArticle.byline}</p>
         <div className="story-container">

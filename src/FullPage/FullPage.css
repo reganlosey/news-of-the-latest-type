@@ -9,6 +9,10 @@
   line-height: 1.3;
 }
 
+.title{
+  font-size: 2em;
+}
+
 .story-container{
   display:flex;
   flex-flow: row wrap;
