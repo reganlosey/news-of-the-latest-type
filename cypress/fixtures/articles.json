@@ -1,0 +1,502 @@
+{
+  "results": [{
+      "section": "us",
+      "subsection": "politics",
+      "title": "Biden says Putin badly 'miscalculated' in invading Ukraine.",
+      "abstract": "President Biden delivered his first State of the Union address amid spiraling inflation at home and an escalating war in Europe.",
+      "url": "https://www.nytimes.com/2022/03/01/us/politics/biden-putin-state-of-the-union.html",
+      "uri": "nyt://article/4cef03fc-eead-5704-9fa8-c88c3a62ca46",
+      "byline": "By Peter Baker",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T04:32:35-05:00",
+      "created_date": "2022-03-01T11:36:17-05:00",
+      "published_date": "2022-03-01T11:36:17-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "State of the Union Message (US)",
+        "United States Politics and Government",
+        "United States International Relations",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [
+        "Russia",
+        "Ukraine"
+      ],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-prexy-1/01dc-prexy-1-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": "1365",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "No president had delivered his State of the Union address with such a large-scale and consequential land war underway in Europe since 1945.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-prexy-1/01dc-prexy-1-threeByTwoSmallAt2X-v2.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "No president had delivered his State of the Union address with such a large-scale and consequential land war underway in Europe since 1945.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-prexy-1/01dc-prexy-1-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "No president had delivered his State of the Union address with such a large-scale and consequential land war underway in Europe since 1945.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3IzLb1m"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Russian Troop Deaths Expose a Potential Weakness of Putin's Strategy",
+      "abstract": "Videos and photos show the bodies of soldiers left behind on the battlefield, officials say, and the charred remains of tanks and armored vehicles.",
+      "url": "https://www.nytimes.com/2022/03/01/us/politics/russia-ukraine-war-deaths.html",
+      "uri": "nyt://article/8f253183-5878-518a-9d7e-2cbb29ed8a66",
+      "byline": "By Helene Cooper and Eric Schmitt",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T04:45:19-05:00",
+      "created_date": "2022-03-01T17:42:12-05:00",
+      "published_date": "2022-03-01T17:42:12-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Russian Invasion of Ukraine (2022)",
+        "Defense and Military Forces",
+        "United States International Relations",
+        "Rumors and Misinformation"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Putin, Vladimir V"
+      ],
+      "geo_facet": [
+        "Russia",
+        "Ukraine"
+      ],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-casualties4/merlin_202715436_35b9729b-798c-44a7-9c6c-21a8ed425e2c-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "1313",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin of Russia visiting the Tomb of the Unknown Soldier in Moscow last week. Rising military casualties in Ukraine could seriously erode support for Mr. Putin.",
+          "copyright": "Aleksey Nikolskyi/Sputnik, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-casualties4/01dc-casualties4-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "399",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin of Russia visiting the Tomb of the Unknown Soldier in Moscow last week. Rising military casualties in Ukraine could seriously erode support for Mr. Putin.",
+          "copyright": "Aleksey Nikolskyi/Sputnik, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-casualties4/01dc-casualties4-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin of Russia visiting the Tomb of the Unknown Soldier in Moscow last week. Rising military casualties in Ukraine could seriously erode support for Mr. Putin.",
+          "copyright": "Aleksey Nikolskyi/Sputnik, via Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/3K9h2Gi"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Unity in a Foreign Policy Crisis, but Questions Still to be Answered",
+      "abstract": "President Biden emphasized allies' resolve in his State of the Union address, but acknowledged Russia may not be deterred from further efforts to reconstitute the Soviet bloc.",
+      "url": "https://www.nytimes.com/2022/03/01/us/politics/sotu-biden-putin-ukraine.html",
+      "uri": "nyt://article/7bd441c9-4d7d-53b5-8f7f-a47f6333003a",
+      "byline": "By David E. Sanger",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T06:12:19-05:00",
+      "created_date": "2022-03-01T23:28:11-05:00",
+      "published_date": "2022-03-01T23:28:11-05:00",
+      "material_type_facet": "",
+      "kicker": "News analysis",
+      "des_facet": [
+        "Russian Invasion of Ukraine (2022)",
+        "United States International Relations",
+        "United States Politics and Government",
+        "War and Armed Conflicts",
+        "Speeches and Statements",
+        "State of the Union Message (US)"
+      ],
+      "org_facet": [
+        "North Atlantic Treaty Organization"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Putin, Vladimir V"
+      ],
+      "geo_facet": [
+        "Eastern Europe",
+        "Ukraine",
+        "Russia"
+      ],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-assess-1/merlin_203079834_59fc9673-795c-4c89-b0b1-2d7d00c212dd-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "2048",
+          "width": "1366",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In his State of the Union address, President Biden acknowledged that Russia, after invading Ukraine, could continue moving west.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-assess-1/01dc-assess-1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In his State of the Union address, President Biden acknowledged that Russia, after invading Ukraine, could continue moving west.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-assess-1/01dc-assess-1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In his State of the Union address, President Biden acknowledged that Russia, after invading Ukraine, could continue moving west.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/35GIYlW"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "5 takeaways from the State of the Union address.",
+      "abstract": "The speech unfolded in two major parts, the first focused on the war underway in Europe, and the second aimed at reviving President Biden's stalled domestic policy agenda.",
+      "url": "https://www.nytimes.com/live/2022/03/01/us/biden-state-of-the-union/biden-state-of-union-takeaways",
+      "uri": "nyt://article/a5fb3129-6bdd-5140-9c89-6e15e249b733",
+      "byline": "By Michael D. Shear",
+      "item_type": "Article",
+      "updated_date": "2022-03-01T23:44:32-05:00",
+      "created_date": "2022-03-01T23:44:32-05:00",
+      "published_date": "2022-03-01T23:44:32-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Russian Invasion of Ukraine (2022)",
+        "United States Politics and Government",
+        "United States International Relations",
+        "State of the Union Message (US)",
+        "Police"
+      ],
+      "org_facet": [
+        "Senate",
+        "House of Representatives"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/live-blog-20220301-biden-state-union-header-replace-vid/merlin_203076396_8bacb7c0-0982-4be8-b266-23370a2c4991-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "1365",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden delivered an hourlong address to a mostly maskless audience in the House chamber on Tuesday night. Covid restrictions were changed on Monday making it possible.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/live-blog-20220301-biden-state-union-header-replace-vid/merlin_203076396_8bacb7c0-0982-4be8-b266-23370a2c4991-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden delivered an hourlong address to a mostly maskless audience in the House chamber on Tuesday night. Covid restrictions were changed on Monday making it possible.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/live-blog-20220301-biden-state-union-header-replace-vid/live-blog-20220301-biden-state-union-header-replace-vid-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden delivered an hourlong address to a mostly maskless audience in the House chamber on Tuesday night. Covid restrictions were changed on Monday making it possible.",
+          "copyright": "Sarahbeth Maney/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3sz0SA5"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Gov. Kim Reynolds of Iowa uses G.O.P. response to blast Biden over 'runaway inflation.'",
+      "abstract": "The governor's speech foreshadowed Republican arguments ahead of the midterm elections.",
+      "url": "https://www.nytimes.com/2022/03/01/us/politics/kim-reynolds-state-of-the-union.html",
+      "uri": "nyt://article/d528e332-7a00-5b3e-8ebd-a79162e9dabb",
+      "byline": "By Glenn Thrush",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T00:44:05-05:00",
+      "created_date": "2022-03-01T19:22:34-05:00",
+      "published_date": "2022-03-01T19:22:34-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "State of the Union Message (US)",
+        "Coronavirus (2019-nCoV)",
+        "Masks",
+        "Vaccination and Immunization",
+        "Coronavirus Omicron Variant"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Reynolds, Kimberly (1959- )",
+        "Biden, Joseph R Jr",
+        "McConnell, Mitch"
+      ],
+      "geo_facet": [
+        "Iowa"
+      ],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-repubs/merlin_203061003_387946f7-e98c-40c7-bd9d-f256160edf74-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "1365",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Kim Reynolds of Iowa delivered the Republican Party's response to President Biden's address.",
+          "copyright": "Charlie Neibergall/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-repubs/merlin_203061003_387946f7-e98c-40c7-bd9d-f256160edf74-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Kim Reynolds of Iowa delivered the Republican Party's response to President Biden's address.",
+          "copyright": "Charlie Neibergall/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/01/us/politics/01dc-repubs/merlin_203061003_387946f7-e98c-40c7-bd9d-f256160edf74-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Kim Reynolds of Iowa delivered the Republican Party's response to President Biden's address.",
+          "copyright": "Charlie Neibergall/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3szLzr9"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "Oil touches $113 a barrel and stocks are jolted over uncertainty in Europe.",
+      "abstract": "The sharp jump in energy prices appeared to be tied to concerns that contracts with Russian suppliers of gas and oil could prompt penalties under Western sanctions.",
+      "url": "https://www.nytimes.com/2022/03/02/business/stocks-bonds-oil-prices.html",
+      "uri": "nyt://article/2df0f8c1-d0e0-55b4-a2fb-4d558347e968",
+      "byline": "By Kevin Granville",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T07:28:54-05:00",
+      "created_date": "2022-03-02T07:28:54-05:00",
+      "published_date": "2022-03-02T07:28:54-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Oil (Petroleum) and Gasoline",
+        "Russian Invasion of Ukraine (2022)",
+        "Natural Gas",
+        "Stocks and Bonds",
+        "Standard & Poor's 500-Stock Index"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/02/multimedia/02econ-brf-stocks/02econ-brf-stocks-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "1323",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A production facility for liquified natural gas in Qatar. The price of natural gas has soared in Europe.",
+          "copyright": "Karim Jaafar/Agence France-Presse — Getty Images/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/02/multimedia/02econ-brf-stocks/02econ-brf-stocks-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A production facility for liquified natural gas in Qatar. The price of natural gas has soared in Europe.",
+          "copyright": "Karim Jaafar/Agence France-Presse — Getty Images/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/02/multimedia/02econ-brf-stocks/02econ-brf-stocks-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A production facility for liquified natural gas in Qatar. The price of natural gas has soared in Europe.",
+          "copyright": "Karim Jaafar/Agence France-Presse — Getty Images/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3hwXWhb"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "Hong Kong, Buckling Under Covid, Leaves Its Most Vulnerable in the Cold",
+      "abstract": "Poor residents have been forced to choose between infecting their families or sleeping outdoors because of cramped living quarters and a lack of isolation facilities.",
+      "url": "https://www.nytimes.com/2022/03/02/business/hong-kong-covid.html",
+      "uri": "nyt://article/2699cc7d-b7fb-5832-8f30-2f2a6ed762c9",
+      "byline": "By Vivian Wang",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T06:24:06-05:00",
+      "created_date": "2022-03-02T05:00:24-05:00",
+      "published_date": "2022-03-02T05:00:24-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Income Inequality",
+        "Quarantines",
+        "Labor and Jobs",
+        "Migrant Labor (Non-Agriculture)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Hong Kong"
+      ],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/02/world/02virus-hongkong-inequality-05/merlin_202982949_9ea42841-86da-43a6-aced-0480df39c8cf-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "1366",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Domestic workers being ordered to leave. The authorities in Hong Kong have targeted domestic workers with heavy fines for flouting social distancing rules.",
+          "copyright": "Lam Yik/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/02/world/02virus-hongkong-inequality-05/merlin_202982949_9ea42841-86da-43a6-aced-0480df39c8cf-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Domestic workers being ordered to leave. The authorities in Hong Kong have targeted domestic workers with heavy fines for flouting social distancing rules.",
+          "copyright": "Lam Yik/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/02/world/02virus-hongkong-inequality-05/02virus-hongkong-inequality-05-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Domestic workers being ordered to leave. The authorities in Hong Kong have targeted domestic workers with heavy fines for flouting social distancing rules.",
+          "copyright": "Lam Yik/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/3hu0UTJ"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Takeaways From the Texas Primary Elections",
+      "abstract": "Republicans' turnout swamped Democrats', while progressives claimed wins in the first elections of the 2022 midterms.",
+      "url": "https://www.nytimes.com/2022/03/02/us/politics/texas-primary-takeaways.html",
+      "uri": "nyt://article/f4ccb4cc-aedb-538b-934d-53351e7d47bf",
+      "byline": "By Reid J. Epstein",
+      "item_type": "Article",
+      "updated_date": "2022-03-02T06:25:08-05:00",
+      "created_date": "2022-03-02T05:00:09-05:00",
+      "published_date": "2022-03-02T05:00:09-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "Elections"
+      ],
+      "org_facet": [
+        "Democratic Party",
+        "House of Representatives",
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Abbott, Gregory W (1957- )",
+        "Biden, Joseph R Jr",
+        "Cisneros, Jessica",
+        "Cuellar, Henry",
+        "O'Rourke, Beto",
+        "Trump, Donald J",
+        "Cruz, Ted"
+      ],
+      "geo_facet": [
+        "Texas"
+      ],
+      "multimedia": [{
+          "url": "https://static01.nyt.com/images/2022/03/02/multimedia/02pol-takeaways-abbott/02pol-takeaways-abbott-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": "1366",
+          "width": "2048",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Greg Abbott in Corpus Christi after winning his primary on Tuesday.",
+          "copyright": "Eric Gay/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/02/multimedia/02pol-takeaways-abbott/02pol-takeaways-abbott-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": "400",
+          "width": "600",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Greg Abbott in Corpus Christi after winning his primary on Tuesday.",
+          "copyright": "Eric Gay/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/03/02/multimedia/02pol-takeaways-abbott/02pol-takeaways-abbott-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": "150",
+          "width": "150",
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Greg Abbott in Corpus Christi after winning his primary on Tuesday.",
+          "copyright": "Eric Gay/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3IGzrtR"
+    }
+  ]
+}

@@ -47,9 +47,7 @@ const Homepage = ({ homeArticles, getClickedArticle, filteredData, sortMenu }) =
       <div className="article-list">
         {displayCards()}
       </div>
-      <div className="sort-menu">
         {sortMenu}
-      </div>
     </div>
   )
 
