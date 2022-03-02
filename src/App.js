@@ -4,11 +4,13 @@ import React, { useEffect, useState } from 'react';
 import Homepage from './Homepage/Homepage';
 import FullPage from './FullPage/FullPage';
 import Header from './Header/Header';
+import SortMenu from './SortMenu/SortMenu';
 import getAllData from './apiCalls';
 
 
 const App = () => {
   const [allArticles, setAllArticles] = useState([]);
+  const [filteredArticles, setFilteredArticles] = useState([]);
   const [clickedArticle, setArticle] = useState();
 
   const getAllArticles = async (query) => {
@@ -31,15 +33,26 @@ const App = () => {
     setArticle(matchedArticle)
   }
 
+  const sortArticles = (query) => {
+    const filteredCards = allArticles.filter((article) => {
+      return article.section === query
+    })
+    console.log(filteredCards)
+    setFilteredArticles(filteredCards)
+  }
+
+  // const sortArticles = (query) => {
+  //   getAllArticles(query)
+  // }
+
 
   return (
     <main className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
+        <Route path="/" element={<Homepage sortMenu={<SortMenu allArticles={allArticles} sortArticles={sortArticles}/>} homeArticles={allArticles} filteredData={filteredArticles}getClickedArticle={getClickedArticle} />} />
         <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
       </Routes>
-
     </main>
   )
 
