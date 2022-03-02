@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Homepage from './Homepage/Homepage';
 import FullPage from './FullPage/FullPage';
 import Header from './Header/Header';
+import SortMenu from './SortMenu/SortMenu';
 import getAllData from './apiCalls';
 
 
@@ -35,6 +36,7 @@ const App = () => {
   return (
     <main className="App">
       <Header />
+      <SortMenu allArticles={allArticles}/>
       <Routes>
         <Route path="/" element={<Homepage homeArticles={allArticles} getClickedArticle={getClickedArticle} />} />
         <Route path="/:id" element={<FullPage clickedArticle={clickedArticle} />} />
