@@ -1,5 +1,4 @@
 .sort-menu{
-  border:2px solid mediumspringgreen;
   text-transform:capitalize;
   display:flex;
   flex-flow: column wrap;
