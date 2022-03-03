@@ -1,9 +1,9 @@
-import './ArticleCard.css'
+import './ArticleCard.css';
 import React, { Link } from 'react-router-dom';
 
 const ArticleCard = ({ id, title, section, subsection, image, redirect }) => {
   const splitUri = id.split('-');
-  const linkId = splitUri[splitUri.length - 1]
+  const linkId = splitUri[splitUri.length - 1];
   return (
     <article className="card">
       <h2 className="title">{title}</h2>
@@ -13,9 +13,9 @@ const ArticleCard = ({ id, title, section, subsection, image, redirect }) => {
 
 
     </article>
-  )
+  );
 
 
-}
+};
 
 export default ArticleCard;
