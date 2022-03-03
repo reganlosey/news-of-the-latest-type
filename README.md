@@ -37,6 +37,13 @@ Or:
 <img src="https://user-images.githubusercontent.com/82983696/156408971-c948e33e-cfc1-43b8-97cc-f45079b986dc.png"  width="800">
 
 
+## Wireframe:
+
+<img src="https://user-images.githubusercontent.com/82983696/156672632-202f7248-372b-4e64-b095-d5aad8a3e4b2.png"  width="800">
+
+
+<img src="https://user-images.githubusercontent.com/82983696/156672725-74c3cf41-e1ce-45a0-b4bb-a37b71c523c1.png"  width="800">
+
 
 ## Future Directions
 1. Implement a feature that allows users to save articles.
