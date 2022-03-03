@@ -1,5 +1,7 @@
 import './Homepage.css';
 import ArticleCard from '../ArticleCard/ArticleCard';
+import React from 'react';
+/* eslint-disable react/prop-types */
 
 const Homepage = ({ homeArticles, getClickedArticle, filteredData, sortMenu }) => {
   const articleCards = homeArticles.map((article) => {
@@ -14,8 +16,8 @@ const Homepage = ({ homeArticles, getClickedArticle, filteredData, sortMenu }) =
         shortUrl={article.short_url}
         redirect={getClickedArticle}
       />
-    )
-  })
+    );
+  });
 
   const filteredCards = filteredData.map((article) => {
     return (
@@ -29,16 +31,16 @@ const Homepage = ({ homeArticles, getClickedArticle, filteredData, sortMenu }) =
         shortUrl={article.short_url}
         redirect={getClickedArticle}
       />
-    )
-  })
+    );
+  });
 
   const displayCards = () => {
     if(filteredData.length){
-      return filteredCards
+      return filteredCards;
     } else {
-      return articleCards
+      return articleCards;
     }
-  }
+  };
 
 
   return (
@@ -48,9 +50,9 @@ const Homepage = ({ homeArticles, getClickedArticle, filteredData, sortMenu }) =
       </div>
         {sortMenu}
     </div>
-  )
+  );
 
 
-}
+};
 
 export default Homepage;
